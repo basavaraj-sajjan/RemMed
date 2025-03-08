@@ -65,7 +65,7 @@ public class meds extends AppCompatActivity {
         // Get condition name from intent
         conditionName = getIntent().getStringExtra("conditionName");
 
-        // Initialize UI
+        // Instantiate UI
         conditionTitle = findViewById(R.id.conditionTitle);
         tabletsListView = findViewById(R.id.tabletsListView);
         remediesListView = findViewById(R.id.remediesListView);

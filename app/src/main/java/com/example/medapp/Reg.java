@@ -20,11 +20,10 @@ import java.util.Map;
 
 public class Reg extends AppCompatActivity {
 
-    EditText uemail, upasswd, uname; // Add uname for user name
+    EditText uemail, upasswd, uname;
     Button ureg, login;
     FirebaseAuth mAuth;
     FirebaseFirestore db;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,12 +35,12 @@ public class Reg extends AppCompatActivity {
             return insets;
         });
 
-        mAuth = FirebaseAuth.getInstance();
+        mAuth = FirebaseAuth.getInstance();   // instantiate firebaseauth
         db = FirebaseFirestore.getInstance(); // Initialize Firestore
 
         uemail = findViewById(R.id.email);
         upasswd = findViewById(R.id.passwd);
-        uname = findViewById(R.id.name); // New EditText for Name
+        uname = findViewById(R.id.name);
         ureg = findViewById(R.id.signr);
         login = findViewById(R.id.login);
 
