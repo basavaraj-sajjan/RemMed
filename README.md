@@ -11,9 +11,6 @@
 - conditions.java(Main page of the app displays different conditions)
 - meds.java(displays ore lets you update or add medications and remedies)
 - Reg.java (Registering a new user)
-## Design
-
-![Image](https://github.com/user-attachments/assets/2f24ccbb-34fb-4dec-8728-960b915a0094)
 
 ## Firebase Firestore Structure
 
@@ -37,8 +34,11 @@
 ```
 
 ## Screenshots
+<img src="https://github.com/user-attachments/assets/9e0f2789-ffe2-40e5-80e8-a916452d163b" width="240" />
+<img src="https://github.com/user-attachments/assets/5b3817c4-19ab-4ae3-93a4-1d15292ef99b" width="240" />
+<img src="https://github.com/user-attachments/assets/7dff8244-0adf-4e19-b58a-5dc1d246ed7a" width="240" />
+<img src="https://github.com/user-attachments/assets/48aa8101-cae4-480c-a74d-c0595f4e9f13" width="240" />
 
-![Image](https://github.com/user-attachments/assets/9e0f2789-ffe2-40e5-80e8-a916452d163b)
-![Image](https://github.com/user-attachments/assets/5b3817c4-19ab-4ae3-93a4-1d15292ef99b)
-![Image](https://github.com/user-attachments/assets/7dff8244-0adf-4e19-b58a-5dc1d246ed7a)
-![Image](https://github.com/user-attachments/assets/48aa8101-cae4-480c-a74d-c0595f4e9f13)
+## Design
+<img src="https://github.com/user-attachments/assets/2f24ccbb-34fb-4dec-8728-960b915a0094"/>
+
